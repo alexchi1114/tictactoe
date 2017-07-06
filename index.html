@@ -5,24 +5,34 @@
 	<link rel = 'stylesheet' type = "text/css" href = 'styles/styles.css' />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type = 'text/javascript' src = 'scripts/main.js'></script>
-	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
 	<h1>Alex Chi's Tic-Tac-Toe</h1>
+	
+	<div id = 'directions-container'>
 	<br>
+	<span id = 'message'>Would you like to play against the computer or another human?</span>
+	<br>
+		<div id = 'comp'>Computer</div>
+		<div id = 'human'>Human</div>
+	</div>
+	
+	<h3 id = 'current_player'></h3>
+	
 	<div id = 'box-container'>
-		<div class = 'box' id = 'x0y0'></div>
-		<div class = 'box' id = 'x0y1'></div>
-		<div class = 'box' id = 'x0y2'></div>
+		<div class = 'box' id = 'b0'></div>
+		<div class = 'box' id = 'b1'></div>
+		<div class = 'box' id = 'b2'></div>
 		<br>
-		<div class = 'box' id = 'x1y0'></div>
-		<div class = 'box' id = 'x1y1'></div>
-		<div class = 'box' id = 'x1y2'></div>
+		<div class = 'box' id = 'b3'></div>
+		<div class = 'box' id = 'b4'></div>
+		<div class = 'box' id = 'b5'></div>
 		<br>
-		<div class = 'box' id = 'x2y0'></div>
-		<div class = 'box' id = 'x2y1'></div>
-		<div class = 'box' id = 'x2y2'></div>
+		<div class = 'box' id = 'b6'></div>
+		<div class = 'box' id = 'b7'></div>
+		<div class = 'box' id = 'b8'></div>
 	</div>
 </body>
 
