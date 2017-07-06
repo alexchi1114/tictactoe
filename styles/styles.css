@@ -1,0 +1,31 @@
+.box {
+	width:98px;
+	height:98px;
+	display:inline-block;
+	padding:0;
+	margin:0;
+}
+
+#box-container{
+	text-align: center;
+	padding:0;
+	margin:0;
+	font-size: 0;
+}
+
+#x0y0, #x0y1, #x1y0, #x1y1{
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
+
+#x0y2, #x1y2{
+	border-bottom:1px solid black;
+}
+
+#x2y0, #x2y1{
+	border-right:1px solid black;
+}
+
+h1 {
+	text-align: center;
+}
